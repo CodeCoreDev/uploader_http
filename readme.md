@@ -2,6 +2,8 @@
 
 ## Конфигурация nginx
 
+- для загрузки на http, его необходимо создать. Ниже приведена конфигурация nginx для http сервера хранения прошивок, совмещенная с конфигурацией nginx для сайта
+
 ```bash
 sudo nano /etc/nginx/sites-available/my_blog
 ```
@@ -34,3 +36,5 @@ server {
 sudo nginx -t
 sudo nginx -s reload
 ```
+
+Roman Volkov. Copyright (c) 2025.
